@@ -1,0 +1,5 @@
+mongo_connection
+sentence_transformers
+numpy
+tqdm
+qdrant_client

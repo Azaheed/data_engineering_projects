@@ -12,5 +12,5 @@ The docker compose file is pretty much complete and only needs to be initialized
 ## Running apache airflow 2.0 in docker with local executor.
 Here are the steps to take to get airflow 2.0 running with docker on your machine. 
 1. Clone this repo
-2. It is important to note that we are running on a local executor, for those who want a production grade executor, look up the Redist service and the Celery Executor.
+2. It is important to note that we are running on a local executor, for those who want a production grade executor, look up the Redist service and the Celery Executor. These configs have been commented out of the yaml file.
 3. Open browser and type http://0.0.0.0:8080 to launch the airflow webserver
